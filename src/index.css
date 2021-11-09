@@ -5,9 +5,146 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: black;
 }
+
+/* * {
+  border: 1px solid;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  background-color: rgb(243, 246, 247);
+}
+
+.header-top {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 40px;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-down {
+  background-color: rgb(192, 216, 248);  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding-left: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.menu li {
+  float: left;
+  display: flex;
+  align-items: stretch;
+}
+
+.menu .Link {
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.menu .Link:hover {
+  background-color: rgb(141, 190, 245);
+}
+
+.btn-header {
+  background-color: rgb(5, 65, 134);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin-right: 40px;
+  border-radius: 30px;
+}
+
+.greeting {
+  display: flex;
+  padding: 40px;
+}
+
+.greeting img {
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 21px #a8a8df, -10px -10px 21px rgb(230, 216, 216);
+}
+
+.head1 {
+  text-align: center;
+}
+
+.home-section-1 {
+  padding: 40px
+}
+
+.home-section-1 h1 {
+  color: rgb(85, 85, 240);
+}
+
+.section1 h2 {
+  margin-left: 10px;
+}
+
+.section1 li {
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: rgb(243, 246, 247);
+  bottom: 0;
+  padding: 40px;
+}
+
+@media screen and (max-width: 1199px){
+  
+}
+
+@media screen and (max-width: 991px){
+  
+}
+
+@media screen and (max-width: 767px){
+  
+}
+
+@media screen and (max-width: 575px){
+  
 }
