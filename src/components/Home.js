@@ -4,6 +4,7 @@ import img1 from "../assets/IMG_7845.JPG"
 export function Home() {
     return (
         <>
+        <div className="main">
         <div className="greeting">
             <h1>Добро пожаловать на сайт доктора стоматолога, ортопеда, гнатолога Климова Валентина Владимировича.</h1>
             <img src={img1}/>
@@ -47,6 +48,7 @@ export function Home() {
             Мы имеем опыт лечения этой болезни и сумеем вам помочь.
             </h2>
             </div>
+        </div>
         </div>
         </>
     );
